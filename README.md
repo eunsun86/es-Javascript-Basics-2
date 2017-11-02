@@ -8,9 +8,9 @@ npm install
 
 ## 안내문
 
-* 우선 브라우저에서 specRunner.html을 열어보세요. 마구 마구 빨간 글씨가 떠있죠? 이제 하나 하나 차근 차근 빨간 녀석들을 초록색으로 통과시켜 나갈겁니다!
+* 우선 브라우저에서 `specRunner.html`을 열어보세요. 마구 마구 빨간 글씨가 떠있죠? 이제 하나 하나 차근 차근 빨간 녀석들을 초록색으로 통과시켜 나갈겁니다!
 
-* 방금 열어보신 specRunner.html을 보면 3개의 문제가 있습니다.
+* 방금 열어보신 `specRunner.html`을 보면 3개의 문제가 있습니다.
 
   - `stringCalculator.js`
   - `compressString.js`
