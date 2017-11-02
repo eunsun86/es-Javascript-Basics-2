@@ -1,30 +1,4 @@
 describe('1. 중복 요소 찾기 (lib/findDuplicates.js)', function () {
-    it('주어진 인자가 배열이 아닌 경우', function () {
-        expect(function () {
-            findDuplicates(3);
-        }).to.throw(TypeError);
-
-        expect(function () {
-            findDuplicates("hello, I am wrong!");
-        }).to.throw(TypeError);
-
-        expect(function () {
-            findDuplicates(null);
-        }).to.throw(TypeError);
-
-        expect(function () {
-            findDuplicates();
-        }).to.throw(TypeError);
-
-        expect(function () {
-            findDuplicates({});
-        }).to.throw(TypeError);
-
-        expect(function () {
-            findDuplicates(function(){});
-        }).to.throw(TypeError);
-    });
-
     it('주어진 배열이 텅 비었을 경우', function () {
         expect(findDuplicates([])).to.eql([]);
     });

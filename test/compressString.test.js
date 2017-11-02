@@ -1,26 +1,4 @@
 describe('2. String 압축 (lib/compressString.js)', function () {
-    it('주어진 인자가 스트링이 아닌 경우', function () {
-        expect(function () {
-            compressString(66);
-        }).to.throw(TypeError);
-
-        expect(function () {
-            compressString(null);
-        }).to.throw(TypeError);
-
-        expect(function () {
-            compressString({});
-        }).to.throw(TypeError);
-
-        expect(function () {
-            compressString([]);
-        }).to.throw(TypeError);
-
-        expect(function () {
-            compressString(function(){});
-        }).to.throw(TypeError);
-    });
-
     it('empty string의 경우', function () {
         expect(compressString('')).to.equal('');
     });

@@ -1,27 +1,5 @@
 describe('3. 계산하기 (lib/stringCalculator.js)', function () {
     describe('a. 더하기', function () {
-        it('주어진 인자가 스트링이 아닌 경우', function () {
-            expect(function () {
-                add(66);
-            }).to.throw(TypeError);
-
-            expect(function () {
-                add(null);
-            }).to.throw(TypeError);
-
-            expect(function () {
-                add({});
-            }).to.throw(TypeError);
-
-            expect(function () {
-                add([]);
-            }).to.throw(TypeError);
-
-            expect(function () {
-                add(function(){});
-            }).to.throw(TypeError);
-        });
-
         it('주어진 String이 텅 비었을 경우', function () {
             expect(add('')).to.equal(0);
         });
@@ -41,28 +19,6 @@ describe('3. 계산하기 (lib/stringCalculator.js)', function () {
     });
 
     describe('b. 빼기', function () {
-        it('주어진 인자가 스트링이 아닌 경우', function () {
-            expect(function () {
-                subtract(66);
-            }).to.throw(TypeError);
-
-            expect(function () {
-                subtract(null);
-            }).to.throw(TypeError);
-
-            expect(function () {
-                subtract({});
-            }).to.throw(TypeError);
-
-            expect(function () {
-                subtract([]);
-            }).to.throw(TypeError);
-
-            expect(function () {
-                subtract(function(){});
-            }).to.throw(TypeError);
-        });
-
         it('주어진 String이 텅 비었을 경우', function () {
             expect(subtract('')).to.equal(0);
         });
@@ -82,28 +38,6 @@ describe('3. 계산하기 (lib/stringCalculator.js)', function () {
     });
 
     describe('c. 곱하기', function () {
-        it('주어진 인자가 스트링이 아닌 경우', function () {
-            expect(function () {
-                multiply(66);
-            }).to.throw(TypeError);
-
-            expect(function () {
-                multiply(null);
-            }).to.throw(TypeError);
-
-            expect(function () {
-                multiply({});
-            }).to.throw(TypeError);
-
-            expect(function () {
-                multiply([]);
-            }).to.throw(TypeError);
-
-            expect(function () {
-                multiply(function(){});
-            }).to.throw(TypeError);
-        });
-
         it('주어진 String이 텅 비었을 경우', function () {
             expect(multiply('')).to.equal(0);
         });
@@ -123,28 +57,6 @@ describe('3. 계산하기 (lib/stringCalculator.js)', function () {
     });
 
     describe('d. 나누기', function () {
-        it('주어진 인자가 스트링이 아닌 경우', function () {
-            expect(function () {
-                divide(66);
-            }).to.throw(TypeError);
-
-            expect(function () {
-                divide(null);
-            }).to.throw(TypeError);
-
-            expect(function () {
-                divide({});
-            }).to.throw(TypeError);
-
-            expect(function () {
-                divide([]);
-            }).to.throw(TypeError);
-
-            expect(function () {
-                divide(function(){});
-            }).to.throw(TypeError);
-        });
-
         it('주어진 String이 텅 비었을 경우', function () {
             expect(divide('')).to.equal(0);
         });
@@ -164,27 +76,7 @@ describe('3. 계산하기 (lib/stringCalculator.js)', function () {
     });
 
     describe('e. 통합 계산', function () {
-        it('주어진 인자가 스트링이 아닌 경우', function () {
-            expect(function () {
-                calculate(66);
-            }).to.throw(TypeError);
-
-            expect(function () {
-                calculate(null);
-            }).to.throw(TypeError);
-
-            expect(function () {
-                calculate({});
-            }).to.throw(TypeError);
-
-            expect(function () {
-                calculate([]);
-            }).to.throw(TypeError);
-
-            expect(function () {
-                calculate(function(){});
-            }).to.throw(TypeError);
-        });
+        xit('[비밀 메시지] 난이도가 높은 문제입니다. 못하셔도 되지만, 시도는 해보세요.', function () {});
 
         it('주어진 String이 텅 비었을 경우', function () {
             expect(calculate('')).to.equal(0);
