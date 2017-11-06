@@ -17,9 +17,9 @@ describe('4. 반복 바닐라 (lib/repeatify.js)', function () {
     });
 
     it('3번 반복할 경우', function () {
-        expect(str1.repeatify(4)).to.eql(str1 + vanilla + str1 + vanilla + str1);
-        expect(str2.repeatify(4)).to.eql(str2 + vanilla + str2 + vanilla + str2);
-        expect(str3.repeatify(4)).to.eql(str3 + vanilla + str3 + vanilla + str3);
+        expect(str1.repeatify(3)).to.eql(str1 + vanilla + str1 + vanilla + str1);
+        expect(str2.repeatify(3)).to.eql(str2 + vanilla + str2 + vanilla + str2);
+        expect(str3.repeatify(3)).to.eql(str3 + vanilla + str3 + vanilla + str3);
     });
 
     it('4번 반복할 경우', function () {
@@ -29,8 +29,8 @@ describe('4. 반복 바닐라 (lib/repeatify.js)', function () {
     });
 
     it('5번 반복할 경우', function () {
-        expect(str1.repeatify(4)).to.eql(str1 + vanilla + str1 + vanilla + str1 + vanilla + str1 + vanilla + str1);
-        expect(str2.repeatify(4)).to.eql(str2 + vanilla + str2 + vanilla + str2 + vanilla + str2 + vanilla + str2);
-        expect(str3.repeatify(4)).to.eql(str3 + vanilla + str3 + vanilla + str3 + vanilla + str3 + vanilla + str3);
+        expect(str1.repeatify(5)).to.eql(str1 + vanilla + str1 + vanilla + str1 + vanilla + str1 + vanilla + str1);
+        expect(str2.repeatify(5)).to.eql(str2 + vanilla + str2 + vanilla + str2 + vanilla + str2 + vanilla + str2);
+        expect(str3.repeatify(5)).to.eql(str3 + vanilla + str3 + vanilla + str3 + vanilla + str3 + vanilla + str3);
     });
 });
