@@ -2,7 +2,7 @@
 
 ```
 git clone GIT_URL
-cd Javascript-Basics-3
+cd Javascript-Basics-2
 npm install
 ```
 
